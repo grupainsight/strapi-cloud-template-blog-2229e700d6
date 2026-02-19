@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "aboutTitle": { "type": "string" },
+    "aboutText1": { "type": "text" },
+    "aboutText2": { "type": "text" },
+    "ctaTitle": { "type": "string" },
+    "ctaSubtitle": { "type": "string" },
+    "ctaButtonText": { "type": "string" },
+    "ctaButtonUrl": { "type": "string" },
+    "contactTitle": { "type": "string" },
+    "contactSubtitle": { "type": "text" }
+  }
+}

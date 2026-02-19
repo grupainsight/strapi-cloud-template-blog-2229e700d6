@@ -1,1 +1,17 @@
-{\n  "kind": "collectionType",\n  "collectionName": "hero-slides",\n  "info": {\n    "name": "Hero Slide",\n    "description": "Hero slide content type"\n  },\n  "options": {\n    "timestamps": true\n  },\n  "attributes": {\n    "title": {\n      "type": "string"\n    },\n    "description": {\n      "type": "text"\n    },\n    "image": {\n      "type": "media",\n      "multiple": false\n    }\n  }\n}
+{
+  "kind": "collectionType",
+  "collectionName": "hero_slides",
+  "info": {
+    "singularName": "hero-slide",
+    "pluralName": "hero-slides",
+    "displayName": "Hero Slide"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "hashtag": { "type": "string", "required": true },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "image": { "type": "media", "multiple": false, "required": true, "allowedTypes": ["images"] },
+    "order": { "type": "integer", "default": 0 }
+  }
+}

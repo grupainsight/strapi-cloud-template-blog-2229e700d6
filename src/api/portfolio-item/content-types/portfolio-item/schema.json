@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_items",
+  "info": {
+    "singularName": "portfolio-item",
+    "pluralName": "portfolio-items",
+    "displayName": "Portfolio Item"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text" },
+    "image": { "type": "media", "multiple": false, "required": true, "allowedTypes": ["images"] },
+    "category": { "type": "enumeration", "enum": ["software-house", "online-marketing", "digital-production"], "required": true },
+    "clientName": { "type": "string" },
+    "projectUrl": { "type": "string" },
+    "order": { "type": "integer", "default": 0 }
+  }
+}

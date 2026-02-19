@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "hashtag": { "type": "string", "required": true },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "richtext", "required": true },
+    "slug": { "type": "uid", "targetField": "title" },
+    "readMoreUrl": { "type": "string" },
+    "order": { "type": "integer", "default": 0 }
+  }
+}
