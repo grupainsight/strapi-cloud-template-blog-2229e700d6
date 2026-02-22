@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "software_house_page",
+  "info": {
+    "singularName": "software-house-page",
+    "pluralName": "software-house-pages",
+    "displayName": "Software House Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroHashtag": {
+      "type": "string"
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "text1": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "stat1Value": {
+      "type": "string"
+    },
+    "stat1Label": {
+      "type": "string"
+    },
+    "stat2Value": {
+      "type": "string"
+    },
+    "stat2Label": {
+      "type": "string"
+    },
+    "stat3Value": {
+      "type": "string"
+    },
+    "stat3Label": {
+      "type": "string"
+    },
+    "stat4Value": {
+      "type": "string"
+    },
+    "stat4Label": {
+      "type": "string"
+    },
+    "techStackTitle": {
+      "type": "string"
+    },
+    "techStackSubtitle": {
+      "type": "string"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "ctaTitle": {
+      "type": "string"
+    },
+    "ctaButtonText": {
+      "type": "string"
+    },
+    "ctaButtonUrl": {
+      "type": "string"
+    }
+  }
+}
